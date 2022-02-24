@@ -1,0 +1,22 @@
+{
+  "name": "add-weak-listener",
+  "version": "1.0.0",
+  "description": "Add weak event listeners based on WeakRefs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "tsc -p ."
+  },
+  "keywords": [
+    "weak",
+    "garbage",
+    "collection",
+    "event",
+    "listener"
+  ],
+  "author": "ashubham@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
