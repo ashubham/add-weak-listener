@@ -22,3 +22,4 @@ export function addWeakListener(target, type, listener, options) {
     gListenersRegistry.register(listener, { target, type, wrapper, options });
     target.addEventListener(type, wrapper, options);
 }
+export default addWeakListener;

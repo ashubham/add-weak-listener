@@ -12,4 +12,5 @@
  * @param options  The AddEventListenerOptions
  */
 export declare function addWeakListener(target: EventTarget, type: string, listener: (evt: Event) => void, options?: boolean | AddEventListenerOptions): void;
+export default addWeakListener;
 //# sourceMappingURL=index.d.ts.map
