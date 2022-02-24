@@ -1,13 +1,13 @@
 {
   "name": "add-weak-listener",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Add weak event listeners based on WeakRefs",
   "main": "cjs/index.js",
   "module": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .; tsc --module commonjs --outDir dist/cjs -p .",
-    "publish": "build"
+    "publish": "npm run build"
   },
   "repository": {
     "type": "git",
