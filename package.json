@@ -1,11 +1,15 @@
 {
   "name": "add-weak-listener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add weak event listeners based on WeakRefs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashubham/add-weak-listener.git"
   },
   "keywords": [
     "weak",
@@ -18,5 +22,6 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.5.5"
-  }
+  },
+  "types": "index.d.ts"
 }
