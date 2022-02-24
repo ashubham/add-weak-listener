@@ -1,6 +1,6 @@
 {
   "name": "add-weak-listener",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add weak event listeners based on WeakRefs",
   "main": "index.js",
   "scripts": {
